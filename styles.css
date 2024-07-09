@@ -1,0 +1,32 @@
+body {
+    margin: 1;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    background: url('background.gif') no-repeat center center fixed;
+    background-size: cover;
+    color: #080808;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+input, button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+}
+
+#burnedName {
+    font-size: 24px;
+    margin-top: 20px;
+    opacity: 1;
+    transition: opacity 2s ease-in-out, transform 2s ease-in-out;
+}
+
+.burn {
+    opacity: 0;
+    transform: translateY(50px);
+    color: red;
+}
